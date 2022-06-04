@@ -1,47 +1,39 @@
-//import React from 'react'
+// //rafce =react arrow dot function
+// import React from 'react'
+// import cafe from "./component/cafe"
 
 // const App = () => {
 //   return (
-//     <div>
-//       <h1>WELCOME SUSHMA !! </h1>
-//       <p>NEW WORLD IN THE REACT</p>
-//     </div>
+//     <div>cofffffeeeee !!!!!! cafe</div>
 //   )
 // }
-//==================================================
 
-//<React.Fragment></React.Fragment>  //replace by //   <> </>
-
-//================================================== 1st component===================================
+// export default App
 
 
-const App = () => {
-  return (
-   
-    <>
+import React from 'react';
+import "./component/style.css";
+import Menu from ".";
 
-    <h1>Hello !!!</h1>
-    <h1 className="name1"> <em>Happy Birthday,Sandeep !!</em> </h1>
-      <h2><p><em><strong> Wish you a very Happy returns of the day #Guru#</strong></em></p></h2>
-        
-      <h3><p><em> Your all wishes comes true ,stay always Happy , Stay always keep Calm</em></p> </h3>
-      <img>quote.jpg</img> 
-     
-        
-      
-      <myName/>
-      
-   </>
-);
-};
-//===========================================================2nd components/function=====================
+const cafe = () => {
+    return (
+        <>
+            <div className='card-container'>
+                <div className='card'>
+                    <div className='card-body'>
+                        <span className='card number card-circle subtle'>1</span>
+                        <span className='card-Author suntle'>Breakfast</span>
+                        <h2 className='card-title'>maggi</h2>
+                        <span className= 'card-description subtle '>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Labore saepe eius sint assumenda maiores corrupti tempora soluta voluptatum quis. Eum sit beatae exercitationem a
+                         labore nulla vitae cumque alias iure!</span>
+                         <div className='card read'>read</div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
 
-// const myName =() =>{
-//   return <h1>hello React world</h1>;
-// }
+export default cafe
 
-
-
-
-export default App
-//(rafce)
